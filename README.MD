@@ -21,9 +21,13 @@ Google Search Results Scraper is a Python-based tool that uses Selenium to autom
 
 ## Getting Started
 
-### Requirements
+### Prerequisites
 
 - Python 3.x
+- Google Chrome installed on your machine
+
+### Requirements
+
 - Selenium
 - pandas
 - requests
@@ -60,6 +64,10 @@ Google Search Results Scraper is a Python-based tool that uses Selenium to autom
 ### Example
 
 When you run the script, you will be prompted to enter your search query and the number of results you want to scrape. The results will be saved in an Excel file with a name based on your search query, such as `buy_a_car_search_results.xlsx`.
+
+### Troubleshooting
+
+- If you encounter issues with ChromeDriver, ensure you have downloaded the correct version that matches your installed version of Google Chrome. Download the latest version from [this link](https://developer.chrome.com/docs/chromedriver/downloads).
 
 ## Contributions
 

@@ -61,7 +61,7 @@ def main():
     # Input from the user
     query = input("Enter your search query: ")
     num_results = int(input("Enter the number of results you want: "))
-    driver_path = 'D://chromedriver.exe'
+    driver_path = os.path.join(os.getcwd(), 'chromedriver.exe')
 
     # Set up Chrome options for headless mode
     options = ChromeOptions()
